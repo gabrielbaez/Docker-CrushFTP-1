@@ -21,10 +21,10 @@ This container, itself, is distributed under the [MIT Licence](LICENSE).
 | `CRUSH_ADMIN_PORT`     | Port for health cecks     | `8080`       |
 
 ## Installation
-Run this container and share the containers `/var/opt/CrushFTP9` directory, which persists CrushFTP's configuration, to an appropriate location on the host. Open a browser and go to http://localhost:8080. Note that the default username and password are both `crushadmin`.
+Run this container and share the containers `/var/opt/CrushFTP10` directory, which persists CrushFTP's configuration, to an appropriate location on the host. Open a browser and go to http://localhost:8080. Note that the default username and password are both `crushadmin`.
 
 This command will create a new container and expose all ports. Remember to change the `<volume>` to a location on your host machine.
 
 ```
-docker run -p 21:21 -p 443:443 -p 2222:2222 -p 8080:8080 -p 9090:9090 -v <volume>:/var/opt/CrushFTP9 shokinn/crushftp:latest
+docker run -p 21:21 -p 443:443 -p 2222:2222 -p 8080:8080 -p 9090:9090 -v <volume>:/var/opt/CrushFTP10 shokinn/crushftp:latest
 ```

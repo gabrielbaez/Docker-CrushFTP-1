@@ -12,12 +12,12 @@ RUN \
 		wget \
 	&& update-ca-certificates
 
-RUN wget -O /tmp/CrushFTP9.zip https://www.crushftp.com/early9/CrushFTP9.zip
+RUN wget -O /tmp/CrushFTP10.zip https://www.crushftp.com/early10/J/CrushFTP10.zip
 ADD ./setup.sh /var/opt/setup.sh
 
 RUN chmod +x /var/opt/setup.sh
 
-VOLUME [ "/var/opt/CrushFTP9" ]
+VOLUME [ "/var/opt/CrushFTP10" ]
 
 #ENTRYPOINT /var/opt/setup.sh
 ENTRYPOINT [ "/bin/bash", "/var/opt/setup.sh" ]
