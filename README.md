@@ -17,8 +17,8 @@ This container, itself, is distributed under the [MIT Licence](LICENSE).
 |:-----------------------|:--------------------------|:-------------|
 | `CRUSH_ADMIN_USER`     | Admin user of CrushFTP    | `crushadmin` |
 | `CRUSH_ADMIN_PASSWORD` | Password for admin user   | `crushadmin` |
-| `CRUSH_ADMIN_PROTOCOL` | Protocol for health cecks | `http`       |
-| `CRUSH_ADMIN_PORT`     | Port for health cecks     | `8080`       |
+| `CRUSH_ADMIN_PROTOCOL` | Protocol for health checks | `http`       |
+| `CRUSH_ADMIN_PORT`     | Port for health checks     | `8080`       |
 
 ## Installation
 Run this container and share the containers `/var/opt/CrushFTP10` directory, which persists CrushFTP's configuration, to an appropriate location on the host. Open a browser and go to http://localhost:8080. Note that the default username and password are both `crushadmin`.
