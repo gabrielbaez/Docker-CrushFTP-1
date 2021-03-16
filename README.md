@@ -26,5 +26,5 @@ Run this container and share the containers `/var/opt/CrushFTP10` directory, whi
 This command will create a new container and expose all ports. Remember to change the `<volume>` to a location on your host machine.
 
 ```
-docker run -p 21:21 -p 443:443 -p 2222:2222 -p 8080:8080 -p 9090:9090 -v <volume>:/var/opt/CrushFTP10 shokinn/crushftp:latest
+docker run -p 21:21 -p 443:443 -p 2222:2222 -p 8080:8080 -p 9090:9090 -v <volume>:/var/opt/CrushFTP10 bohitigaming/crushftp:latest
 ```
